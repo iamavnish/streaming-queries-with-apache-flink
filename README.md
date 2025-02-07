@@ -46,5 +46,3 @@ The core element of the Table API & SQL is the entity known as a Table. A table 
 
 For above use case, two tables are created. Input table (source_stream) is connected to data source (kinesis-input-stream) and output table (output_sliding_sales_stream) is connected to data sink (kinesis-total-sales-slide-output-stream). Both, data source and data sinks are Amazon Kinesis Data Streams. For data processing, a sliding window table (sliding_window_table) is created from the input table with a window size (of 6 minutes) and window slide (of 3 minutes) and a sliding window query is executed to get the total number of sales. Then data from sliding window table is inserted into output table. Further, a python consumer application (consumer.py) reads processed records from data sink (kinesis-total-sales-slide-output-stream).
 
-
-Another sliding window query allows to get the number of orders per device type. Further, a python application consumes 
