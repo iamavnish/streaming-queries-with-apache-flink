@@ -36,3 +36,12 @@ Order data in JSON format. Here is a sample record:
     'total_price': 963.1,
     'traffic_source': 'www.hardin-green.com'
 }
+
+## Solution Architecture
+![image](https://github.com/user-attachments/assets/10e6320f-09c6-4267-b122-5ceff2c4b4cc)
+
+Here, PyFlink which allows to write Flink applications in Python, is used to process streaming data. Flink is structured around two major APIs: the DataStream API and the Table API and SQL. The DataStream API is a low-level API while the Table API and SQL offers a more declarative approach, making it easier to write complex data transformations and aggregations.
+
+The core element of the Table API & SQL is the entity known as a Table. A table can connect to a variety of source or target systems such as databases, files, message queues or data streams. It doesn't contain the data in itself. Instead, it describes how to read data from a source and how to eventually write data to a sink. Table is defined with schema of the dataset that is expected to arrive from the data source along with connection details. After tables are established, a wide range of operations such as filtering, aggregating, joining etc can be performed over them. These operations can be expressed using either the Table API, which provides a programmatic way to manipulate tables or SQL queries.
+
+
