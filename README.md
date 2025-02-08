@@ -10,7 +10,7 @@ Medium
 - PyFlink
 - Amazon Managed Service for Apache Flink
 - Amazon Kinesis Data Stream
-- Zeppelin Notebook
+- Zeppelin Notebook (Flink Studio Notebook)
 
 ## Use Case / Problem Statement
 An Amazon Kinesis Data Stream which is acting as Producer is continuously generating data related to orders made by customers on the website of a business. The business team is eager to gain real time insights into the behavior of Customers on their website like user buying habits, preferences and other business metrics as they happen. So, they want to process and analyze this data stream (of orders) providing them with valuable, actionable insights in real-time.
