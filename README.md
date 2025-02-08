@@ -1,7 +1,7 @@
 # Queries on Streaming Data with Managed Apache Flink 
 
 ## Overview
-This is Proof of Concept for processing streaming Data with Managed Apache Flink.
+This is Proof of Concept for processing and analyzing streaming Data with Managed Apache Flink.
 
 ## PoC Complexity Level
 Medium
