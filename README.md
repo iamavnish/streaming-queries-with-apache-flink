@@ -3,7 +3,7 @@
 ## Overview
 This is Proof of Concept for processing streaming Data with Managed Apache Flink.
 
-## PoC Compleity Level
+## PoC Complexity Level
 Medium
 
 ## Tech Stack
